@@ -6,7 +6,7 @@
 /*   By: jtaylor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/27 10:11:01 by jtaylor           #+#    #+#             */
-/*   Updated: 2018/11/01 11:14:12 by jtaylor          ###   ########.fr       */
+/*   Updated: 2018/11/04 11:20:37 by jtaylor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define GET_NEXT_LINE_H
 # define BUFF_SIZE 32
 # include "libft.h"
+# include "limits.h"
 
 int	get_next_line(const int fd, char **line);
 
